@@ -30,7 +30,7 @@ export const KBCTokens = {
     18,
     'SYRUP',
     'SyrupBar Token',
-    'https://pancakeswap.finance/',
+    'https://pancakeswap.finance/', 
   ), 
   bake: new ERC20Token(
     ChainId.KBC,

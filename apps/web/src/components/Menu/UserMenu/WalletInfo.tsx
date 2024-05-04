@@ -86,7 +86,7 @@ const WalletInfo: React.FC<WalletInfoProps> = ({ hasLowNativeBalance, onDismiss 
 }
 
 export default WalletInfo
-
+ 
 
 
 

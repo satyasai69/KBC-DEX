@@ -53,7 +53,7 @@ export const WETH9 = {
   ),
 }
 
-export const WBNB = {
+export const WBNB = { 
   [ChainId.ETHEREUM]: new ERC20Token(
     ChainId.ETHEREUM,
     '0x418D75f65a02b3D53B2418FB8E1fe493759c7605',

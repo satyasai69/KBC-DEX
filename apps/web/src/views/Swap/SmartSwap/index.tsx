@@ -492,7 +492,7 @@ export const SmartSwapForm: React.FC<{ handleOutputSelect: (newCurrencyOutput: C
 }
 
 
-/** line 349       {isSmartRouterBetter && !isStableSwapByDefault && (
+/** line 349       {isSmartRouterBetter && !isStableSwapByDefault && ( 
             <AutoColumn>
               {allowUseSmartRouter && (
                 <Message variant="warning" mb="8px">

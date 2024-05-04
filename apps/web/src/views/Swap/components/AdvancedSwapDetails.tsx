@@ -130,7 +130,7 @@ function TradeSummary({
                     </>
                   )}
                   <Text mt="10px">
-                    <Text bold display="inline-block">
+                    <Text bold display="inline-block"> 
                       {t('MM')}
                     </Text>
                     :{' '}
