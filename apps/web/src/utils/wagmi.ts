@@ -65,12 +65,12 @@ const  KBC = {
       blockCreated: 315596
     }
   },
- // testnet: false
+ // testnet: false 
 };
 
 
 
-// const CHAINS = [bsc, mainnet, bscTestnet, goerli , KBC]
+// const CHAINS = [bsc, mainnet, bscTestnet, goerli , KBC] 
 
 const CHAINS = [ KBC]
  
@@ -103,7 +103,7 @@ const getNodeRealUrl = (networkName: string) => {
     webSocket: url.replace(/^http/i, 'wss').replace('.nodereal.io/v1', '.nodereal.io/ws/v1'),
   }
 }
-
+// @ts-ignore
 export const { provider, chains } = configureChains(CHAINS, [
   jsonRpcProvider({
     rpc: (chain) => {
