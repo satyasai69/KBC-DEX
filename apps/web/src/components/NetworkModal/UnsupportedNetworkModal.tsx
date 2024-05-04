@@ -48,7 +48,7 @@ export function UnsupportedNetworkModal({ pageSupportedChains }: { pageSupported
             layout="fixed"
             width={194}
             height={175}
-            src="/images/check-your-network.png"
+           src="" // "/images/check-your-network.png"
             alt="check your network"
           />
         </div>

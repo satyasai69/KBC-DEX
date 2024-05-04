@@ -354,7 +354,7 @@ function DesktopModal<T>({
         alignItems="center"
       >
         <AtomBox display="flex" flexDirection="column" alignItems="center" style={{ gap: '24px' }} textAlign="center">
-          {!selected && <Intro docLink={docLink} docText={docText} />}
+         
           {selected && selected.installed !== false && (
             <>
               {typeof selected.icon === 'string' && <Image src={selected.icon} width={108} height={108} />}
@@ -374,6 +374,9 @@ function DesktopModal<T>({
     </>
   )
 }
+
+
+/** line 357  {!selected && <Intro docLink={docLink} docText={docText} />}  */
 
 export function WalletModalV2<T = unknown>(props: WalletModalV2Props<T>) {
   const { wallets: _wallets, login, docLink, docText, ...rest } = props
