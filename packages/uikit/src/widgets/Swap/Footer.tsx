@@ -50,7 +50,7 @@ const Footer: React.FC<
   helpUrl,
   externalText,
   externalLinkUrl,
-  helpImage = <Image src="https://cdn.pancakeswap.com/help/help.png" alt="Get some help" width={160} height={108} />,
+  // helpImage = <Image src="https://cdn.pancakeswap.com/help/help.png" alt="Get some help" width={160} height={108} />,
 }) => {
   const { t } = useTranslation();
   const isSide = variant === "side";
@@ -70,7 +70,19 @@ const Footer: React.FC<
         </Flex>
       )}
       {isSide && <Flex flexGrow={1} />}
-      {helpUrl && (
+      
+    </Wrapper>
+  );
+};
+
+export const SwapFooter = memo(Footer);
+
+// line 88  {helpImage}
+
+
+
+/* line 73 
+{helpUrl && (
         <Flex
           flexGrow={isSide ? 0 : 1}
           alignItems="center"
@@ -85,11 +97,7 @@ const Footer: React.FC<
               <path d="M0 16V0C0 0 3 1 6 1C9 1 16 -2 16 3.5C16 10.5 7.5 16 0 16Z" />
             </Svg>
           </BubbleWrapper>
-          {helpImage}
+         
         </Flex>
       )}
-    </Wrapper>
-  );
-};
-
-export const SwapFooter = memo(Footer);
+*/
