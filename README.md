@@ -1,4 +1,4 @@
-# 🥞 Pancake Frontend
+# KBC-DEX Frontend
 
 <p align="center">
 
@@ -36,12 +36,9 @@ yarn start
 
 ## Packages
 
-| Package                                    | Description                                                                                                 |
-| ------------------------------------------ | ----------------------------------------------------------------------------------------------------------- |
-| [sdk](/packages/swap-sdk)                  | An SDK for building applications on top of Pancakeswap                                                      |
-| [aptos-swap-sdk](/packages/aptos-swap-sdk) | Aptos version of Swap SDK                                                                                   |
-| [swap-sdk-core](/packages/swap-sdk-core)   | Swap SDK Shared code                                                                                        |
-| [wagmi](/packages/wagmi)                   | Extension for [wagmi](https://github.com/wagmi-dev/wagmi), including bsc chain and binance wallet connector |
-| [awgmi](/packages/awgmi)                   | connect to Aptos with similar wagmi React hooks.                                                            |
-
-# KBC-DEX
+| Package                                  | Description                                                                                                 |
+| ---------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| [sdk](/packages/swap-sdk)                | An SDK for building applications on top of Pancakeswap                                                      |
+| SDK                                      |
+| [swap-sdk-core](/packages/swap-sdk-core) | Swap SDK Shared code                                                                                        |
+| [wagmi](/packages/wagmi)                 | Extension for [wagmi](https://github.com/wagmi-dev/wagmi), including bsc chain and binance wallet connector |
