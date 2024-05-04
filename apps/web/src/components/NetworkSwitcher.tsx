@@ -54,7 +54,12 @@ const NetworkSelect = ({ switchNetwork, chainId }) => {
             </Text>
           </UserMenuItem>
         ))}
-      <UserMenuItem
+     
+    </>
+  )
+}
+
+/** line 57    <UserMenuItem
         key={`aptos-${AptosChain.id}`}
         style={{ justifyContent: 'flex-start' }}
         as="a"
@@ -71,10 +76,7 @@ const NetworkSelect = ({ switchNetwork, chainId }) => {
         <Text color="text" pl="12px">
           {AptosChain.name}
         </Text>
-      </UserMenuItem>
-    </>
-  )
-}
+      </UserMenuItem> */
 
 const WrongNetworkSelect = ({ switchNetwork, chainId }) => {
   const { t } = useTranslation()

@@ -70,7 +70,10 @@ const  KBC = {
 
 
 
-const CHAINS = [bsc, mainnet, bscTestnet, goerli , KBC]
+// const CHAINS = [bsc, mainnet, bscTestnet, goerli , KBC]
+
+const CHAINS = [ KBC]
+ 
  
 const getNodeRealUrl = (networkName: string) => {
   let host = null
